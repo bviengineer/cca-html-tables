@@ -1,0 +1,74 @@
+/*********************************
+    HEADING TAGS
+**********************************/
+    h1, h2 {
+        text-align: center;
+        line-height: 1rem;
+        color: blue;
+    }
+
+/*********************************
+    TABLE BODY, HEAD & FOOTER
+**********************************/
+    table {
+        border: 0.7rem solid darkseagreen;
+        border-collapse: collapse;
+        margin-top: 3%;
+        margin-left: 20%;
+        border-radius: 2%;
+    }
+
+    #devtools-table {
+        padding-bottom: 5rem;
+
+    }
+
+    caption {
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: green;
+    }
+
+    thead tr th {
+        background-color: tomato;
+        padding: 0.5rem;
+        color: khaki;
+        font-size: 1.3rem;
+    }
+
+
+/************************************
+    TABLE CELLS, COLUMNS & ROWS
+*************************************/
+    td {
+        padding: 2rem;
+        font-size: 1.2rem;
+        height: 1rem;
+        width: 7rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    tbody tr:nth-of-type(2n){
+        background-color: indianred;
+    }
+
+    tbody tr:nth-of-type(2n + 1){
+        background-color: burlywood;
+    }
+
+    tbody tr:hover {
+        color: white;
+    }
+
+    tbody td:hover {
+        background-color: brown;
+    }
+
+    #shopping-cart td{
+        width: 10rem;
+    }
+
+    #shopping-cart {
+        margin-left: 12%;
+    }
